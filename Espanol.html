@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <!-- Metadatos-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Bruno O. Ortuño">
+  <meta name="description" content="Bruno Ortuno's backend developer portfolio - portafolio de desarrollador backend">
+  <meta name="keywords" content="backend, developer, backend developer, fullstack, frontend, portfolio, php, sql, mysql, java, html, css, javascript, desarrollador, portafolio">
+  <!-- FavIcon -->
+  <link rel="icon" type="image/x-icon" href="images/pngegg.png">
+  <!-- Titulo -->
+  <title> Bruno Ortuno · Desarrollador Backend </title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="estilos.css"/>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <!-- Goggle Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+   <!-- Open Graph -->
+  <meta property="og:title" content="Bruno Ortuno · Backend Developer" />
+  <meta property="og:type" content="developer portfolio" />
+  <meta property="og:url" content="http://www.example.com" />   <!-- (example url for now) -->
+  <meta property="og:image" content="images\hero-inferior.svg" />
+  <meta property="og:description" content="Bruno Ortuno's Portfolio Page · Learn more about me, my projects, client's feedback and ways to contact me!" />
+</head>
+
+
+<body>
+
+  <!-- Barra de navegacion -->
+
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="images\icono.png" class="logo-pagina" alt="logo pagina">
+        </a> 
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active english" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link english" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link english" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link english" href="#contacto">Contacto</a>
+          </li>
+          <li>
+            <span class="en">English</span>
+            <input type="checkbox" class="check" checked>
+            <span class="es">Español</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil" src="images\profile_picture.jpg" alt="Profile Picture">
+      <h1 class="espanol">Hola, soy Bruno Ortuño.</h1>
+      <h2 class="espanol"> Soy un desarrollador Backend.</h2>
+    </div>
+
+    <!-- Seccion hero inferior -->
+
+    <div class="hero-inferior" >
+      <img class="hero-imagen img-fluid" src="images\hero-inferior.svg" alt="imagen de computadora con logos de HTML, CSS y Js.">
+    </div>
+  </section>
+  
+
+  <!-- Sobre mí -->
+
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo espanol">Sobre Bruno Ortuño:</h2>
+      <p class="seccion-texto espanol">¡Hola! Soy Bruno Ortuño, tengo 32 años y actualmente resido en Buenos Aires, Argentina. Soy Fullstack developer, con un enfoque primario en el Backend. <br><br>
+
+        Soy autodidacta de inglés, pudiendo leer y escribir sin problemas, y siendo capaz de mantener conversaciones, hasta cierto punto, dada la incapacidad de practicar el hablarlo tanto como desearía.
+        También tengo el N6 Nihongo Tokimeki en japonés, en cuanto a idiomas.<br><br>
+        
+        Fuera del aspecto de la programación, estudié por un tiempo considerable Psicología y Física en la Universidad. (sí, interesante mezcla) Durante la pandemia también aprendí lo básico de análisis técnico para inversiones bursatiles. <br><br>
+
+        Bueno, supongo que eso es suficiente "sobre mí". Pero si sienten curiosidad sobre cualquier otro aspecto, sientanse en la libertad de escribirme por cualquier via que deseen, ¡que estaré respondiendo en cuanto pueda!<br><br>
+        
+        Abajo van a poder chequear mi experiencia, proyectos y algunas devoluciones por parte de clientes, así como opiniones personales de colegas y amigos. Y al final de la página hay vinculos a todas mis redes sociales.<br><br>
+        
+        ¡Espero escuchar de ustedes!
+        <br>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Frontend -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo espanol"> Desarrollo Web</p>
+          <p class="espanol"> Tengo experiencia en el uso de HTML, CSS y JavaScript. Aprendí de forma autodidacta los tres mediante proyectos antes de hacer varios cursos online que los abordaban. Debajo pueden chequear los proyectos de páginas web que he realizado usandolos.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+          </div>
+        </div>
+          <!-- Desarrollo Backend -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo espanol"> Experiencia Backend</p>
+          <p class="espanol"> Aprendí SQL, PHP y JAVA mediante cursos online y de forma autodidacta. Desarrollé multiples proyectos usandolos para el control de base de datos, formularios y otros aspectos abocados al backend. ¡Así mismo debajo pueden chequear los proyectos donde los implemento!</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Java</span>
+            <span class="badge text-bg-primary">SQL</span>
+            <span class="badge text-bg-primary">PHP</span>
+          </div>
+        </div>
+          <!-- Estudios -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo espanol"> Estudios Actuales</p>
+          <p class="espanol"> Siempre estoy ampliando todo lo que sé sobre los lenguajes y sistemas con los que ya estoy familiarizado, practicando y desarrollando proyectos constantemente. Así mismo intento seguir aprendiendo nuevos lenguajes y tecnologías que puedan serme útiles en proyectos futuros. Con eso en mente ahora mismo estoy aprendiendo Python, Django y Node.Js.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">Django</span>
+            <span class="badge text-bg-primary">Node.Js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+
+  <section id="proyectos" class="proyectos seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo espanol">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion espanol">Estos son algunos de mis más recientes proyectos...</h3>
+    <!-- Galeria de proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto1.png" alt="proyecto 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!-- Proyecto 2 -->
+         <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto2.png" alt="proyecto 2">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto3.png" alt="proyecto 3">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto4.png" alt="proyecto 4">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto5.png" alt="proyecto 5">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images\proyecto6.png" alt="proyecto 6">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">Ve más de mis proyectos!
+      <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+
+  </section>
+
+  <!-- Testimonios -->
+
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo espanol">Testimonios</h2>
+    <h3 class="seccion-descripcion espanol">Estos son algunos testimonios de mis clientes...</h3>
+    <!-- Carousel -->
+    <div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images\cliente1.svg" alt="foto de cliente 1">
+            <p class="testimonio-texto espanol"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus nisl sed erat porta consequat. In ultricies tellus ipsum, eget pulvinar libero scelerisque id. </p>
+            <div class="testimonio-info">
+              <p class="nombre_cliente">Gino</p>
+              <p class="cargo_cliente">Gerente de ProyectosDesarrolloWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images\cliente2.svg" alt="foto de cliente 2">
+            <p class="testimonio-texto espanol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus nisl sed erat porta consequat. In ultricies tellus ipsum, eget pulvinar libero scelerisque id. </p>
+            <div class="testimonio-info">
+              <p class="nombre_cliente">Nora</p>
+              <p class="cargo_cliente">Gerente de DiseñaMiPaginaWeb</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="images\cliente3.svg" alt="foto de cliente 3">
+            <p class="testimonio-texto espanol">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus nisl sed erat porta consequat. In ultricies tellus ipsum, eget pulvinar libero scelerisque id.</p>
+            <div class="testimonio-info">
+              <p class="nombre_cliente">Leonardo</p>
+              <p class="cargo_cliente">Director de AprendeAProgramar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- Contacto -->
+
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo espanol"> Contactame!</div>
+            <div class="col-12 col-md-4 descripcion espanol"> Contactame para empezar tu proyecto, y hacer tu visión realidad!</div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:bruno.ortuno2@gmail.com">
+                <button type="button" class="">Contacto
+                  <i class="bi bi-envelope-at-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <script src="funcionalidadDual.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+<!-- Footer -->
+
+<footer id="footer" class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+  <img class="footer-logo" src="images\icono-blanco.svg" alt="logo pagina">
+  <p class="footer-texto text-center espanol"> Creemos tu proyecto juntos!</p>
+
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+    <a href="www.linkedin.com/in/bruno-ortuño-213393197" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="https://github.com/Br1-O?tab=repositories" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-github"></i>
+    </a>
+    <a href="https://www.facebook.com/ryusaki.law" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/br1.11235813" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="mailto:bruno.ortuno2@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-envelope"></i>
+    </a>
+
+  </div>
+  <div class="derechos-de-autor espanol"> Creado por Bruno O. Ortuno (2023) &#169; </div>
+
+</footer>
+
+</html>
